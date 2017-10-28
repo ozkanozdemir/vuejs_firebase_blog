@@ -29,7 +29,7 @@ npm test
 - Created new firebase project
 - Added firebase injection codes (js) in index.html
 - Linked bootstrap 3 CDN path in index.html
-- npm install vue-sweetalert vue-quill-editor firebase  --save
+- npm install vue-sweetalert vue-quill-editor firebase vue-style-loader style-loader css-loader vue-loader --save
 - Created header.vue and added as app-header component in App.vue
 - Created routes
 - Created login page

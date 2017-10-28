@@ -13,8 +13,8 @@
 </template>
 
 <script>
-  import Header from './components/Header.vue'
-  import Footer from './components/Footer.vue'
+  import Header from './components/partials/Header.vue'
+  import Footer from './components/partials/Footer.vue'
 
   export default {
     name: 'app',
@@ -25,7 +25,7 @@
   }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
   @import "assets/css/clean-blog.min.css";
 
   #app {
