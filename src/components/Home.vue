@@ -2,7 +2,7 @@
   <div>
     <div v-for="( post, postId ) in posts">
       <img :src="post.post_picture" class="img-rounded" width="100%" :alt="post.title">
-      <router-link :to="{name: 'Post', params: {id: postId} }">
+      <router-link :to="{name: 'post', params: {id: postId} }">
         <h1>{{ post.title }}</h1>
       </router-link>
       <p v-html="post.content"></p>
